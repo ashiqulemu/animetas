@@ -6,14 +6,14 @@
 }
 
 @font-face {
-  font-family: monospace;
-  src: url(../fonts/Pepper/TypeMonospaceland-ExtLtObliq.otf);
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Bold.ttf);
 }
 
 body {
-  font-family: monospace;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0D1846), to(#861592));
-  background-image: linear-gradient(180deg, #0D1846 0%, #861592 100%);
+  font-family: Roboto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#41CABA), to(#DA2EE2));
+  background-image: linear-gradient(180deg, #41CABA 0%, #DA2EE2 100%);
 }
 
 .mint .link-theme {

@@ -6,9 +6,14 @@
 
 // font face
 
+// @font-face {
+//   font-family: monospace;
+//   src: url(../fonts/Pepper/TypeMonospaceland-ExtLtObliq.otf);
+// }
+
 @font-face {
-  font-family: monospace;
-  src: url(../fonts/Pepper/TypeMonospaceland-ExtLtObliq.otf);
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Bold.ttf);
 }
 
 //   variables
@@ -19,13 +24,14 @@ $secondary:#172b4d !important;
 //classes
 
 body {
-  font-family: monospace;
-  background-image: linear-gradient(180deg, #0D1846 0%, #861592 100%);
+  // font-family: monospace;
+  font-family: Roboto;
+  background-image: linear-gradient(180deg, #41CABA 0%, #DA2EE2 100%);
 }
 
 
-.mint{
-  .link-theme{
+.mint {
+  .link-theme {
     background: #13c5eb;
     color: #fff;
     padding: 10px;
@@ -35,35 +41,40 @@ body {
     line-height: 1.1;
     display: block;
   }
-  .title{
+
+  .title {
     margin-top: 16px;
     color: #fff;
-    span{
-    color:#00C8E8;
+
+    span {
+      color: #00C8E8;
     }
   }
-  hr{ 
+
+  hr {
     border-bottom: 2px solid #E5E7EB;
   }
 }
 
 
-.metamask{ 
+.metamask {
   display: inline-block;
   margin: 50px 0;
- 
-  img{ 
-    &:nth-child(2){
+
+  img {
+    &:nth-child(2) {
       display: none;
     }
   }
-  &:hover{
-    img{
-      &:nth-child(1){
+
+  &:hover {
+    img {
+      &:nth-child(1) {
         display: none;
       }
-      &:nth-child(2){
-        display: block!important;
+
+      &:nth-child(2) {
+        display: block !important;
       }
     }
   }
@@ -73,9 +84,11 @@ body {
 .navbarCustom {
   margin-top: 25px;
   padding: 0;
+
   .navbar-brand {
     max-width: 235px;
   }
+
   .nav-link {
     color: #fff !important;
     font-size: 2.25rem;
@@ -83,12 +96,15 @@ body {
     margin: 0 0.9rem;
   }
 }
-.about { 
+
+.about {
   padding-top: 50px;
+
   hr {
     margin-top: 50px;
     border-bottom: 2px solid #E5E7EB;
   }
+
   .para {
     color: #fff;
     font-size: 17px;
@@ -98,37 +114,45 @@ body {
     }
   }
 }
+
 .roadmap {
   padding-top: 50px;
+
   .title {
     font-size: 4.5rem;
     line-height: 1;
     color: #fff;
   }
+
   hr {
-    border-bottom:2px solid #E5E7EB;
+    border-bottom: 2px solid #E5E7EB;
   }
 }
+
 .team {
-   
+
   padding-bottom: 50px;
+
   .title {
     font-size: 4.5rem;
     line-height: 1;
     color: #00C8E8;
   }
+
   .teamContent {
     a {
       font-size: 2.25rem;
       line-height: 2.5rem;
       color: #fff;
       text-decoration: none;
+
       &:hover {
         color: #fff;
       }
     }
   }
 }
+
 .para {
   color: #fff;
   font-size: 17px;
@@ -137,6 +161,7 @@ body {
     font-size: 2rem;
   }
 }
+
 .link-theme {
   background: #13c5eb;
   color: #fff;
@@ -144,6 +169,7 @@ body {
   font-size: 2.25rem;
   line-height: 2.5rem;
   text-decoration: none;
+
   &:hover {
     color: black;
     text-decoration: none;
