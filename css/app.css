@@ -16,6 +16,47 @@ body {
   background-image: linear-gradient(180deg, #0D1846 0%, #861592 100%);
 }
 
+.mint .link-theme {
+  background: #13c5eb;
+  color: #fff;
+  padding: 10px;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  text-decoration: none;
+  line-height: 1.1;
+  display: block;
+}
+
+.mint .title {
+  margin-top: 16px;
+  color: #fff;
+}
+
+.mint .title span {
+  color: #00C8E8;
+}
+
+.mint hr {
+  border-bottom: 2px solid #E5E7EB;
+}
+
+.metamask {
+  display: inline-block;
+  margin: 50px 0;
+}
+
+.metamask img:nth-child(2) {
+  display: none;
+}
+
+.metamask:hover img:nth-child(1) {
+  display: none;
+}
+
+.metamask:hover img:nth-child(2) {
+  display: block !important;
+}
+
 .navbarCustom {
   margin-top: 25px;
   padding: 0;
