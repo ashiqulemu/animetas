@@ -16,6 +16,54 @@ body {
   background-image: linear-gradient(180deg, #41CABA 0%, #DA2EE2 100%);
 }
 
+.btn-cusctom {
+  background-color: #fad121;
+  font-size: 44px;
+  line-height: 67px;
+  padding: -18px;
+  text-decoration: none;
+  padding: 13px;
+  width: 100%;
+  border-radius: 70px;
+  -webkit-box-shadow: 0px 4px 16px #00000026;
+  box-shadow: 0px 4px 16px #00000026;
+  color: black;
+  display: block;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.btn-cusctom:before {
+  content: '';
+  height: 139px;
+  width: 17px;
+  position: absolute;
+  left: 40%;
+  background: #FFDD81;
+  -webkit-transform: skewY(25deg) rotate(202deg);
+          transform: skewY(25deg) rotate(202deg);
+  top: -22px;
+  bottom: 0;
+  z-index: -1;
+}
+
+.btn-cusctom:after {
+  content: '';
+  height: 167px;
+  width: 40px;
+  position: absolute;
+  left: 47%;
+  background: #FFDD81;
+  -webkit-transform: skewY(25deg) rotate(202deg);
+  transform: skewY(25deg) rotate(202deg);
+  top: -36px;
+  bottom: 0;
+  z-index: -1;
+}
+
 .mint .link-theme {
   background: #13c5eb;
   color: #fff;
@@ -88,7 +136,8 @@ body {
 }
 
 .about .para .f-word {
-  font-size: 2rem;
+  font-size: 1.9rem;
+  line-height: 1.3;
 }
 
 .roadmap {
