@@ -77,6 +77,12 @@ margin-top: 80px;
     transform-origin: center center;
     transform: scale(1.05);
   }
+
+  @media(max-width:600px){
+    margin: 12px auto;
+    line-height: 45px !important;
+    font-size: 30px;
+  }
 }
 
 
@@ -185,7 +191,7 @@ margin-top: 80px;
   padding-bottom: 50px;
 
   .title {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     line-height: 1;
     color: #00C8E8;
   }

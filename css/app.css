@@ -71,6 +71,14 @@ body {
           transform: scale(1.05);
 }
 
+@media (max-width: 600px) {
+  .btn-cusctom {
+    margin: 12px auto;
+    line-height: 45px !important;
+    font-size: 30px;
+  }
+}
+
 .mint .link-theme {
   background: #13c5eb;
   color: #fff;
@@ -166,7 +174,7 @@ body {
 }
 
 .team .title {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   line-height: 1;
   color: #00C8E8;
 }
