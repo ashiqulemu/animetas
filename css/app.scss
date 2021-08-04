@@ -30,7 +30,7 @@ body {
 }
 
 .btn-cusctom {
-  background-color: #fad121;
+  background-color: #d127f8;
   font-size: 44px;
   line-height: 67px;
   padding: -18px;
@@ -46,16 +46,27 @@ body {
   position: relative;
   z-index: 2;
   overflow: hidden;
-margin-top: 80px;
+  margin-top: 122px;
+  color: white!important;
+
   &:before {
     content: '';
-    height: 139px;
+    height: 150px;
     width: 17px;
     position: absolute;
     left: 40%;
-    background: #FFDD81;
-    transform: skewY(25deg) rotate(202deg);
-    top: -22px;
+    background: #e06cfb;
+    -webkit-transform: skewY(
+25deg
+) rotate(
+202deg
+);
+    transform: skewY(
+25deg
+) rotate(
+202deg
+);
+    top: -31px;
     bottom: 0;
     z-index: -1;
   }
@@ -66,7 +77,7 @@ margin-top: 80px;
     width: 40px;
     position: absolute;
     left: 47%;
-    background: #FFDD81;
+    background: #e06cfb;
     -webkit-transform: skewY(25deg) rotate(202deg);
     transform: skewY(25deg) rotate(202deg);
     top: -36px;
@@ -163,7 +174,7 @@ margin-top: 80px;
 
   .para {
     color: #fff;
-    font-size: 17px;
+    font-size: 22px;
 
     .f-word {
       font-size: 1.9rem;
@@ -212,7 +223,7 @@ margin-top: 80px;
 
 .para {
   color: #fff;
-  font-size: 17px;
+  font-size: 22px;
 
   .f-word {
     font-size: 2rem;
