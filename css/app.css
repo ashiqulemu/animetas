@@ -35,6 +35,7 @@ body {
   overflow: hidden;
   margin-top: 122px;
   color: white !important;
+  text-transform: uppercase;
 }
 
 .btn-cusctom:before {
