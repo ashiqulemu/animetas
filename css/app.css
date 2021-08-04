@@ -64,6 +64,13 @@ body {
   z-index: -1;
 }
 
+.btn-cusctom:hover {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
 .mint .link-theme {
   background: #13c5eb;
   color: #fff;

@@ -73,6 +73,10 @@ margin-top: 80px;
     bottom: 0;
     z-index: -1;
   }
+  &:hover{
+    transform-origin: center center;
+    transform: scale(1.05);
+  }
 }
 
 
